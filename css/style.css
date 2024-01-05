@@ -1,28 +1,149 @@
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 ul,
 ol {
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
 }
 
 h1,
 h2,
 h3,
 p {
-    margin: 0px;
+  margin: 0px;
 }
 
 p {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 img {
-    display: block;
-    margin: 0px;
-    padding: 0px;
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+.container {
+  width: 1102px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* header */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  margin-right: 145px;
+  font-family: SF Pro Display;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  color: #282a30;
+}
+
+.header-nav-container {
+  display: flex;
+  align-items: center;
+  gap: 106px;
+  margin-right: 193px;
+}
+
+.header-nav-link {
+  font-family: Nunito Sans;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #282a30;
+  letter-spacing: 1px;
+}
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: #f7515c;
+}
+
+.header-nav-button-container {
+  display: flex;
+  align-items: center;
+  gap: 85px;
+}
+.header-nav-button {
+  padding: 0;
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+}
+/* .header-nav-button svg {
+    fill: black;
+} */
+
+/* hero */
+.hero-section {
+  display: flex;
+  gap: 85px;
+  margin-top: 108px;
+  padding-right: 80px;
+}
+
+.hero-section-text {
+  margin-top: 103px;
+  margin-bottom: 62px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  color: #f7515c;
+}
+.hero-section-title {
+  width: 620px;
+  margin-bottom: 47px;
+  font-size: 55px;
+  font-weight: 700;
+  color: #282a30;
+}
+.hero-section-button-container {
+  display: flex;
+  align-items: center;
+  gap: 67px;
+}
+.hero-section-button {
+  padding: 25px 55px;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 3px;
+  background: #f7515c;
+  border-color: #f7515c;
+  /* border: 0; */
+}
+.hero-section-button:hover,
+.hero-section-button:focus {
+  background: transparent;
+  color: #f7515c;
+  border-color: #f7515c;
+}
+.hero-section-button--watch {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #282a30;
+  background: transparent;
+  border-color: transparent;
+}
+
+.hero-section-pictures-container {
+  padding: 0;
 }
